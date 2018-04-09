@@ -82,10 +82,10 @@
 #define DELTA_SEGMENTS_PER_SECOND 160
 
 // 碳杆长度，从一端球中心到另一端球中心的距离 大小调整此参数
-#define DELTA_DIAGONAL_ROD 214// mm
+#define DELTA_DIAGONAL_ROD 340 // 214 // mm
 
 // 打印头到滑杆水平距离 凹凸调整此参数
-#define DELTA_SMOOTH_ROD_OFFSET 116// mm
+#define DELTA_SMOOTH_ROD_OFFSET 230 // 116// mm
 
 // 效应器球中心和打印头的水平距离
 #define DELTA_EFFECTOR_OFFSET 24.0 // mm
@@ -97,7 +97,7 @@
 #define DELTA_RADIUS (DELTA_SMOOTH_ROD_OFFSET-DELTA_EFFECTOR_OFFSET-DELTA_CARRIAGE_OFFSET)
 
 // 打印半径
-#define DELTA_PRINTABLE_RADIUS 80.0
+#define DELTA_PRINTABLE_RADIUS 150.0 // 80.0
 
 #define SIN_60 0.8660254037844386
 #define COS_60 0.5
