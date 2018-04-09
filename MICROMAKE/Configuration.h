@@ -85,7 +85,7 @@
 #define DELTA_DIAGONAL_ROD 214// mm
 
 // 打印头到滑杆水平距离 凹凸调整此参数
-#define DELTA_SMOOTH_ROD_OFFSET 160// mm
+#define DELTA_SMOOTH_ROD_OFFSET 116// mm
 
 // 效应器球中心和打印头的水平距离
 #define DELTA_EFFECTOR_OFFSET 24.0 // mm
@@ -97,7 +97,7 @@
 #define DELTA_RADIUS (DELTA_SMOOTH_ROD_OFFSET-DELTA_EFFECTOR_OFFSET-DELTA_CARRIAGE_OFFSET)
 
 // 打印半径
-#define DELTA_PRINTABLE_RADIUS 90.0
+#define DELTA_PRINTABLE_RADIUS 80.0
 
 #define SIN_60 0.8660254037844386
 #define COS_60 0.5
@@ -285,7 +285,7 @@ const bool Z_MAX_ENDSTOP_INVERTING = false;
 
   #define X_PROBE_OFFSET_FROM_EXTRUDER 0.0
   #define Y_PROBE_OFFSET_FROM_EXTRUDER 0.0
-  #define Z_PROBE_OFFSET_FROM_EXTRUDER 1.6//自动调平设置 过高减小 过低增大
+  #define Z_PROBE_OFFSET_FROM_EXTRUDER 0.8//自动调平设置 过高减小 过低增大
 
   #define Z_RAISE_BEFORE_HOMING 4       // 配置回原点前Z轴升起的高度，该高度要确保在Z轴最大高度范围内。 
   
@@ -336,7 +336,7 @@ const bool Z_MAX_ENDSTOP_INVERTING = false;
 #define XYZ_STEPS (XYZ_FULL_STEPS_PER_ROTATION * XYZ_MICROSTEPS / double(XYZ_BELT_PITCH) / double(XYZ_PULLEY_TEETH))
 //这是计算公式：步进电机数*步进驱动的细分数/同步带齿间距/同步轮齿数
 
-#define DEFAULT_AXIS_STEPS_PER_UNIT   {XYZ_STEPS, XYZ_STEPS, XYZ_STEPS, 98}   //挤出机挤出量
+#define DEFAULT_AXIS_STEPS_PER_UNIT   {XYZ_STEPS, XYZ_STEPS, XYZ_STEPS, 920}   //挤出机挤出量
 #define DEFAULT_MAX_FEEDRATE          {200, 200, 200, 200}   
 #define DEFAULT_MAX_ACCELERATION      {3000,3000,3000,3000}    
 
