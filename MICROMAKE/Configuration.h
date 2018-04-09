@@ -118,7 +118,7 @@
 #define TEMP_SENSOR_0 5 //设置传感器0接口连接的传感器类型编号，类型根据上面说明设置相应的编号
 #define TEMP_SENSOR_1 0
 #define TEMP_SENSOR_2 0  //设置传感器2接口连接的传感器编号，0表示关闭该端口
-#define TEMP_SENSOR_BED 0 //设置热床传感器端口连接的传感器类型。该项如果设置错误将影响加热床温度控制
+#define TEMP_SENSOR_BED 1 //设置热床传感器端口连接的传感器类型。该项如果设置错误将影响加热床温度控制
 //添加热床支持只需将#define TEMP_SENSOR_BED 处0设置为5即可
 
 //这里用传感器1来做传感器0的冗余。如果两个传感器温度差较大，将停止打印。
