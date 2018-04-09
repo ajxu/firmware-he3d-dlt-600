@@ -1026,7 +1026,7 @@ static void retract_z_probe() {
 
     destination[X_AXIS] = 0;//-78;
     destination[Y_AXIS] = 0;//29;
-    destination[Z_AXIS] = 5;//34;
+    destination[Z_AXIS] = Z_RAISE_BEFORE_HOMING;//5;//34;
     prepare_move_raw();
 
     // TODO: Move the nozzle down until the Z probe switch is activated.

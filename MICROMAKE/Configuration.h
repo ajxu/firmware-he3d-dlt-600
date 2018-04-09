@@ -287,7 +287,7 @@ const bool Z_MAX_ENDSTOP_INVERTING = false;
   #define Y_PROBE_OFFSET_FROM_EXTRUDER 0.0
   #define Z_PROBE_OFFSET_FROM_EXTRUDER 0.8//自动调平设置 过高减小 过低增大
 
-  #define Z_RAISE_BEFORE_HOMING 4       // 配置回原点前Z轴升起的高度，该高度要确保在Z轴最大高度范围内。 
+  #define Z_RAISE_BEFORE_HOMING 30//4       // 配置回原点前Z轴升起的高度，该高度要确保在Z轴最大高度范围内。 
   
   #define XY_TRAVEL_SPEED 2000         //执行自动调平移动的速度，增大速度增加，减小速度降低
 
